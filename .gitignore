@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Solver temporary files
+*.lp
+*.mps
+*.sol
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# Large/raw datasets
+data*
+
+
+# Generated outputs that can be reproduced
+outputs/*
+results/*
+figures/generated/*
+
+# Optional local scratch work
+scratch/
+notebooks/scratch/
